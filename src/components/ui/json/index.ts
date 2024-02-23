@@ -1,1 +1,1 @@
-export { default as Json } from "./Json.vue";
+export { default as Json } from './Json.vue'

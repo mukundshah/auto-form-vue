@@ -18,7 +18,7 @@ const delegatedProps = computed(() => {
     class="overflow-hidden text-sm transition-all data-[state=closed]:animate-accordion-up data-[state=open]:animate-accordion-down"
   >
     <div :class="cn('pb-4 pt-0', props.class)">
-      <slot />
+      <slot></slot>
     </div>
   </AccordionContent>
 </template>

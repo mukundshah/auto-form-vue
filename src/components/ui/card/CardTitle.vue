@@ -13,6 +13,6 @@ const props = defineProps<{
       cn('text-2xl font-semibold leading-none tracking-tight', props.class)
     "
   >
-    <slot />
+    <slot></slot>
   </h3>
 </template>

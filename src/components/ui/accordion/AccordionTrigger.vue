@@ -28,7 +28,7 @@ const delegatedProps = computed(() => {
         )
       "
     >
-      <slot />
+      <slot></slot>
       <slot name="icon">
         <ChevronDown
           class="h-4 w-4 shrink-0 transition-transform duration-200"
