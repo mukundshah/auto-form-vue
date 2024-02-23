@@ -1,26 +1,23 @@
 <script setup lang="ts">
-import { AutoFormSubmit } from '@/components/ui/auto-form'
+import Api from './examples/Api.vue'
+import Array from './examples/Array.vue'
+import Basics from './examples/Basics.vue'
+import ConfirmPassword from './examples/ConfirmPassword.vue'
+import Controlled from './examples/Controlled.vue'
+import Dependencies from './examples/Dependencies.vue'
+import InputWithoutLabel from './examples/InputWithoutLabel.vue'
+import SubObject from './examples/SubObject.vue'
 </script>
 
 <template>
   <div class="mx-auto my-6 max-w-lg space-y-8">
-    <AutoFormSubmit />
+    <Basics />
+    <InputWithoutLabel />
+    <SubObject />
+    <Controlled />
+    <ConfirmPassword />
+    <Api />
+    <Array />
+    <Dependencies />
   </div>
 </template>
-
-<style scoped>
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-
-.logo.vue:hover {
-  filter: drop-shadow(0 0 2em #42b883aa);
-}
-</style>
