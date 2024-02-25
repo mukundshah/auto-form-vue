@@ -7,8 +7,8 @@ import {
   AutoFormNumber,
   AutoFormRadioGroup,
   AutoFormSwitch,
-  AutoFormTextarea
-} from "./fields";
+  AutoFormTextarea,
+} from './fields'
 
 export const INPUT_COMPONENTS = {
   checkbox: AutoFormCheckbox,
@@ -20,18 +20,18 @@ export const INPUT_COMPONENTS = {
   number: AutoFormNumber,
   file: AutoFormFile,
   fallback: AutoFormInput,
-};
+}
 
 /**
  * Define handlers for specific Zod types.
  * You can expand this object to support more types.
  */
 export const DEFAULT_ZOD_HANDLERS: {
-  [key: string]: keyof typeof INPUT_COMPONENTS;
+  [key: string]: keyof typeof INPUT_COMPONENTS
 } = {
-  ZodBoolean: "checkbox",
-  ZodDate: "date",
-  ZodEnum: "select",
-  ZodNativeEnum: "select",
-  ZodNumber: "number",
-};
+  ZodBoolean: 'checkbox',
+  ZodDate: 'date',
+  ZodEnum: 'select',
+  ZodNativeEnum: 'select',
+  ZodNumber: 'number',
+}

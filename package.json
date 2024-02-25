@@ -13,6 +13,7 @@
     "@vueuse/core": "^10.8.0",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.0",
+    "date-fns": "^3.3.1",
     "lucide-vue-next": "^0.335.0",
     "radix-vue": "^1.4.8",
     "tailwind-merge": "^2.2.1",
